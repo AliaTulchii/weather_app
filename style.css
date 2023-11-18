@@ -84,8 +84,8 @@ body {
     position: absolute;
     top: 5%;
     left: 35%;
-    width: calc(var(--index) * 20);
-    height: calc(var(--index) * 5);
+    width: 500px;
+    height: 100px;
     background: rgba(71, 68, 68, 0.327);
     backdrop-filter: blur(30px);
     border: 2px solid rgba(255, 255, 255, 0.568);
@@ -94,9 +94,9 @@ body {
     transition: height .6s ease;
     z-index: 9;
 
-    @media screen and (min-width:1200px) {
+    /* @media screen and (min-width:1200px) {
         height: calc(var(--index) * 4.2);
-    }
+    } */
 }
 
 .search-box{
