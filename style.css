@@ -82,7 +82,7 @@ body {
 
 .container{
     position: absolute;
-    top: 15%;
+    top: 5%;
     left: 35%;
     width: calc(var(--index) * 20);
     height: calc(var(--index) * 5);
