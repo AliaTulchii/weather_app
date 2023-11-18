@@ -82,7 +82,7 @@ body {
 
 .container{
     position: absolute;
-    top: 30%;
+    top: 15%;
     left: 35%;
     width: calc(var(--index) * 20);
     height: calc(var(--index) * 5);
@@ -95,7 +95,7 @@ body {
     z-index: 9;
 
     @media screen and (min-width:1200px) {
-        height: calc(var(--index) * 4);
+        height: calc(var(--index) * 4.2);
     }
 }
 
