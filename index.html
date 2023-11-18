@@ -12,12 +12,9 @@
         <link rel="stylesheet" href="style.css" />
         <link rel="icon" href="./img/sun.png" />
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-        <title>Weather Forecast</title>
+        <title>Weather App</title>
     </head>
     <body>
-        <video  autoplay preload="auto" loop muted poster="./img/sea.jpg" id="body-video">
-            <source src="./video/sea.mp4.crdownload" type="video/mp4">
-        </video>
         <div class="container">
             <div class="search-box">
                 <i class='bx bxs-map'></i>
@@ -68,8 +65,20 @@
                 </div>
             </div>
         </div>
-
-        <script src="./script.js"></script>
+    <section class="layers">
+        <div class="layers__container">
+            <div class="layers__item layer-1" style="background-image: url(img/layer-1.jpg);"></div>
+            <div class="layers__item layer-2" style="background-image: url(img/layer-2.png);"></div>
+            <div class="layers__item layer-3">
+                <canvas class="rain"></canvas>
+            </div>
+            <div class="layers__item layer-4" style="background-image: url(img/layer-5.png);"></div>
+            <div class="layers__item layer-5" style="background-image: url(img/layer-6.png);"></div>
+        </div>
+    </section>
+        <script src="./js/script.js"></script>
+        <script src="./js/parallax.js"></script>
+        <script src="./libs/rain.js"></script>
     </body>
 
 </html>

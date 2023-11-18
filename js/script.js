@@ -19,14 +19,14 @@ search.addEventListener('click', () => {
         .then(json => {
 
             if (json.cod == '404') {
-                container.style.height = '400px';
+                container.style.height = '500px';
                 weatherBox.classList.remove('active');
                 weatherDetails.classList.remove('active');
                 error.classList.add('active');
                 return;
             }
 
-                container.style.height = '600px';
+                container.style.height = '700px';
                 weatherBox.classList.add('active');
                 weatherDetails.classList.add('active');
                 error.classList.remove('active');
